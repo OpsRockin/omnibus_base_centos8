@@ -1,4 +1,4 @@
-# omnibus_base_centos6
+# omnibus_base_centos8
 
 https://hub.docker.com/r/opsrock/omnibus_base_centos8/
 
@@ -38,10 +38,10 @@ MAINTAINER you
 
 ```
 ## DEB
-$ docker build -t omnibus_myproject-ubuntu1404 -f Dockerfile.ubuntu1804 .
+$ docker build -t omnibus_myproject-ubuntu1804 -f Dockerfile.ubuntu1804 .
 
 ## RPM
-$ docker build -t omnibus_myproject-centos6 -f Dockerfile.centos8 .
+$ docker build -t omnibus_myproject-centos8 -f Dockerfile.centos8 .
 ```
 
 ## Run to create package!
