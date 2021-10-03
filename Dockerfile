@@ -1,7 +1,7 @@
 FROM centos:8
-MAINTAINER sawanoboriyu@higanworks.com
+LABEL MAINTAINER=sawanoboriyu@higanworks.com
 
-RUN yum install curl tar util-linux-ng epel-release -y
+RUN yum install curl tar util-linux-ng epel-release ca-certificates -y
 RUN yum install fakeroot -y
 
 ## Prepare for Chef
